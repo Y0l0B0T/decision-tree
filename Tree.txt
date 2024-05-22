@@ -1,0 +1,17 @@
+Sore Throat?
+├── Yes
+│   ├── Swollen Glands?
+│   │   ├── Yes
+│   │   │   ├── Fever?
+│   │   │   │   ├── Yes
+│   │   │   │   │   ├── Congestion?
+│   │   │   │   │   │   ├── Yes: Strep Throat
+│   │   │   │   │   │   └── No: Inconclusive (possibly strep throat or mono)
+│   │   │   │   └── No: Cold
+│   │   │   └── No: Allergy
+│   │   └── No: Cold
+│   └── No: Allergy
+└── No
+    ├── Fever?
+    │   ├── Yes: Cold
+    │   └── No: Allergy
